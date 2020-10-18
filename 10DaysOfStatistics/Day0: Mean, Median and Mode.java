@@ -1,4 +1,10 @@
-{
+import java.util.Scanner;
+import java.util.Arrays;
+import java.util.HashMap;
+
+// Time Complexity: O(n log n) due to sorting
+public class Solution {
+    public static void main(String[] args) {
         /* Save input */
         Scanner scan = new Scanner(System.in);
         int size = scan.nextInt();
